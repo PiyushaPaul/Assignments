@@ -21,7 +21,7 @@ public class ArraySearch {
 		for(int i=0;i<arr1.length;i++) {
 			
 			if(arr1[i]==f) {
-				System.out.println(" The number is "+ arr1[i]+" is found at position "+ i);
+				System.out.println(" The number is "+ arr1[i]+" is found at index position "+ i);
 			}
 			
 		}

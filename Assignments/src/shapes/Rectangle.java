@@ -1,6 +1,5 @@
 package shapes;
 
-import java.util.Scanner;
 
 public class Rectangle extends Quadrilateral {
 	
@@ -8,20 +7,20 @@ public class Rectangle extends Quadrilateral {
 	
 
 	
-	public Rectangle(Integer base, Integer height) {
-		super(base,height);
+	//public Rectangle(Integer base, Integer height) {
+		//super(base,height);
 	
-	}
+	//}
 	
 	public void area() {
 		
 		
-		Scanner s= new Scanner(System.in);
-		setBase(s.nextInt());
-		setHeight(s.nextInt());
+		
+		setBase(10);
+		setHeight(5);
 		area=getBase()*getHeight();
-		System.out.println("The area of Square is: "+ area);
-		s.close();
+		System.out.println("The area of Rectangle is: "+ area);
+	
 		
 	}
 
